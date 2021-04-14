@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - People
+  - Car
+  - Bcycle
+  - PeopleSemaphore
   - Destroyable
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -12,13 +17,13 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Ground
+  - 
+  - 
+  - people
+  - car
+  - semaphore
+  - player
   - Cells
-  - Off_Cell
-  - Road
-  - 
-  - 
   - 
   - 
   - 
