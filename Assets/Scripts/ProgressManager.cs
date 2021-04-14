@@ -37,14 +37,14 @@ public class ProgressManager : MonoBehaviour
 
     private void OnEnable()
     {
-        PlaneController.SpeedIsChanged += ChangeSpeedHandler;
-        PlaneController.CollectibleIsTaken += HandleChangeLimit;
+        HoverCarControl.SpeedIsChanged += ChangeSpeedHandler;
+        HoverCarControl.CollectibleIsTaken += HandleChangeLimit;
     }
 
     private void OnDisable()
     {
-        PlaneController.SpeedIsChanged -= ChangeSpeedHandler;
-        PlaneController.CollectibleIsTaken -= HandleChangeLimit;
+        HoverCarControl.SpeedIsChanged -= ChangeSpeedHandler;
+        HoverCarControl.CollectibleIsTaken -= HandleChangeLimit;
     }
     private void ChangeSpeedHandler(int actives)
     {
